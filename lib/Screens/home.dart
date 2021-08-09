@@ -257,7 +257,7 @@ class _MyHomePageState extends State<MyHomePage> {
             child: Row(
               children: [
                 Icon(
-                  Icons.search,
+                  !searchState ? Icons.search : Icons.arrow_back_ios,
                   color: Colors.white54,
                   size: 20,
                 ),
